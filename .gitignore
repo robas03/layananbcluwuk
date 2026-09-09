@@ -1,9 +1,27 @@
+# Environment Variables & Kredensial
 .env
+.env.*
+/*.env
+
+# File Log & Debug
+*.log
+error_log
+
+# Dependency Folders
 /vendor/
 /node_modules/
-*.log
-uploads/1~.env
-/vendor/
-/node_modules/
-*.log
-uploads/
+
+# Folder Upload/Media Pengguna
+/uploads/
+/storage/
+/assets/uploads/
+
+# Database Dumps / Backups
+*.sql
+*.gz
+*.zip
+
+# Configuration IDE & OS
+.DS_Store
+.idea/
+.vscode/
