@@ -1,0 +1,9 @@
+.env
+/vendor/
+/node_modules/
+*.log
+uploads/1~.env
+/vendor/
+/node_modules/
+*.log
+uploads/
